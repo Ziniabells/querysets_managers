@@ -2,9 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+db.sqlite3
+db.sqlite3-journal
 # C extensions
 *.so
+venv
 
 # Distribution / packaging
 .Python
