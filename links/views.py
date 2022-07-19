@@ -1,6 +1,6 @@
 from django.utils import timezone
-from rest_framework.response import Response
-from rest_framework import status
+from . import Response
+from . import status
 
 
 from . import models 
@@ -11,7 +11,7 @@ import datetime
 from django.shortcuts import render
 from .models import Link
 from .serializers import LinkSerializer
-from rest_framework.generics import ListAPIView, CreateAPIView, RetrieveAPIView , UpdateAPIView, DestroyAPIView
+from . import ListAPIView, CreateAPIView, RetrieveAPIView , UpdateAPIView, DestroyAPIView
 
 # Create your views here.
 class ActiveLinkView(ListAPIView):
