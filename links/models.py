@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth import get_user_model
 from django.utils import timezone
 
-from querysets_managers.links.managers import ActiveLinkManager
+from .managers import ActiveLinkManager
 # Create your models here.
 class Link(models.Model):
     
